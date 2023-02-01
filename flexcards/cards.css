@@ -1,0 +1,13 @@
+.cards{
+    width: 100%;
+    padding; 8vh 0 8vh 0;
+    /* you can yse padding as a shortcut for all direction  - think like a clock : top to right */
+    background: var(--mid-color)
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+
+
+}

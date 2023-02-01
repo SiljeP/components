@@ -1,0 +1,20 @@
+
+:root {
+--brand-color: #FACC15;
+--dark-color: #18181B;
+--mid-color: #E4E4E7;
+--light-color: #F8FAFC;
+  }
+
+--base-font: Verdana, Geneva,;
+--brand-font: Cambria, Cochin
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: var(--base-font);
+}

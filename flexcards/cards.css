@@ -1,13 +1,29 @@
 .cards{
     width: 100%;
-    padding; 8vh 0 8vh 0;
-    /* you can yse padding as a shortcut for all direction  - think like a clock : top to right */
-    background: var(--mid-color)
-
+    padding: 8vh 0;
+    /* you can yse padding as a shortcut for all direction  - think like a clock : top - right - bottom - left */
+    background: var(--mid-color);
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    
+    gap:2rem; 
+    justify-content: center;
+    }
 
+.cards section{
+    flex:0 1 300px;
+    align-self: stretch;
+
+    background: var(--light-color);
+
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50, 50, 50, 0.7);
+    
+    padding: 1.5rem;
+
+}
+
+.cards p{
+    font-size: small;
+    margin:1.5rem 0;
 
 }
